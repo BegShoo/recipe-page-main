@@ -33,3 +33,12 @@ body {
   font-family: "Young Serif", serif;
   margin-bottom: 2rem;
 }
+
+.recipe-description {
+  margin-bottom: 2rem;
+}
+
+.section-prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+}
