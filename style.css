@@ -6,6 +6,8 @@
 
 html {
   font-family: Outfit, sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 1rem;
 }
 
 body {
@@ -29,9 +31,10 @@ body {
   margin-bottom: 2rem;
 }
 
-.primary-heading {
+.primary-heading,
+.secondary-heading {
   font-family: "Young Serif", serif;
-  margin-bottom: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 .recipe-description {
@@ -41,4 +44,25 @@ body {
 .section-prep-time {
   background-color: hsl(330, 100%, 98%);
   padding: 1rem;
+  border-radius: 1rem;
+  padding-left: 2rem;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-bottom: 0.6rem;
+}
+
+.bullet {
+  padding-right: 1rem;
+  padding-left: 0.4rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.list-number {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  padding-right: 1rem;
+  padding-left: 0.6rem;
 }
