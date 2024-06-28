@@ -8,6 +8,7 @@ html {
   font-family: Outfit, sans-serif;
   color: hsl(30, 10%, 34%);
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 body {
@@ -52,6 +53,12 @@ ul,
 li {
   list-style: none;
   padding-bottom: 0.6rem;
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: 1fr 16fr;
+  gap: 0.4rem;
 }
 
 .bullet {
